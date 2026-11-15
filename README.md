@@ -1,17 +1,30 @@
-# warungku
+# WarungKu
 
-A new Flutter project.
+Aplikasi mobile inventaris stok warung UMKM berbasis Flutter.
+Asesmen Tengah Semester Praktikum Pemrograman Perangkat Bergerak (RPL317).
 
-## Getting Started
+## Fitur
+- Login dengan validasi input
+- Dashboard ringkasan stok, pencarian, dan filter kategori
+- CRUD barang (tambah, edit, hapus)
+- Update stok (+/-) dan peringatan stok menipis
+- Pengaturan ambang stok dan logout
 
-This project is a starting point for a Flutter application.
+## Teknologi
+- Flutter (Dart)
+- State management: Provider (ChangeNotifier)
+- Data: dummy data (tanpa backend)
 
-A few resources to get you started if this is your first Flutter project:
+## Akun Demo
+- Username: `admin`
+- Password: `admin123`
 
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
+## Cara Menjalankan
+    flutter pub get
+    flutter run
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Identitas
+- Nama: Marsya Zainur Aminarti
+- NIM: 4342501042
+- Kelas: TRPL 3B Pagi
+- Dosen: Iqbal Afif 
